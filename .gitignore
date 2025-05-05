@@ -1,0 +1,30 @@
+# Build outputs
+#Build e artefatos temporários
+bin/
+obj/
+
+# Arquivos de configuração do usuário
+# Configurações locais (não versionar)
+*.userprefs
+*.suo
+
+# Arquivos de IDE/Editor
+.vscode/
+.idea/
+
+# Configurações locais (não versionadas)
+appsettings.Development.json
+appsettings.Local.json
+
+# Arquivos do Visual Studio
+# Arquivos de IDE/Editor
+*.vs/
+*.swp
+
+# Dependências (se tiver frontend)
+node_modules/
+wwwroot/lib/
+
+# Logs e diagnósticos
+logs/
+*.log
